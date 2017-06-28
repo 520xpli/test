@@ -1,0 +1,20 @@
+1.Look up the percent of sort without index
+  db2top -d dbname
+2.When sql isn't using index
+  is null
+  <>
+  <
+  >
+  like '%?%'
+  like '%?'
+  =1+2
+  index column has many duplicate values
+  column counts change frequently and great, but didn't runstats 
+3.db2 ha is used for diaster recovery
+4.db2 pagesize cannot more than one row size
+5.db2 foreign key has a paremeter nocheck is used for join
+6.db2 big table should use one tablespace
+7.two table should create in one tablespace when have join operation
+8.don't use varchar storage date
+9.it's best to create tablespace on nude disk
+10.sql's order by should use index
